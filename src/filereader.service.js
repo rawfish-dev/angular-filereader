@@ -42,7 +42,7 @@ angular.module('filereader', [])
       return reader;
     };
 
-    // Read a file
+    // Read a file as a data url
     var readAsDataURL = function (file, scope) {
       var deferred = $q.defer();
 
@@ -51,8 +51,19 @@ angular.module('filereader', [])
 
       return deferred.promise;
     };
+    
+    // Read a file as a text
+    var readAsText = function(file, encoding, scope) {
+      var deferred = $q.defer();
+
+      var reader = getReader(deferred, scope);
+      reader.readAsText(file, encoding);
+
+      return deferred.promise;
+    };
 
     return {
-      readAsDataUrl: readAsDataURL
+      readAsDataUrl: readAsDataURL,
+      readAsText: readAsText
     };
   });
