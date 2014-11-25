@@ -3,6 +3,7 @@
   "version": "v1.0.0",
   "description": "A wrapper around the Filereader API",
   "homepage": "https://github.com/matteosuppo/angular-filereader",
+  "main": ["./src/filereader.service.js"],
   "authors": [
     "Matteo Suppo <matteo.suppo@gmail.com>"
   ],
