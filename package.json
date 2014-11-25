@@ -1,6 +1,6 @@
 {
   "name": "angular-fileupload",
-  "version": "v1.0.0",
+  "version": "v1.0.1",
   "description": "A wrapper around the Filereader API",
   "repository": {
     "type": "git",
