@@ -63,7 +63,7 @@ angular.module('filereader', [])
     };
 
     return {
-      readAsDataUrl: readAsDataURL,
+      readAsDataURL: readAsDataURL,
       readAsText: readAsText
     };
   });
