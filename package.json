@@ -10,6 +10,7 @@
     "angular",
     "filereader"
   ],
+  "main": "./src/filereader.service.js",
   "author": "Matteo Suppo <matteo.suppo@gmail.com>",
   "license": "MIT",
   "bugs": {
